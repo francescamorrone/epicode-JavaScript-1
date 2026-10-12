@@ -131,9 +131,9 @@ let pari = n % 2 === 0;
 let divisibilePer3 = n % 3 === 0;
 let pariDivisibile = pari && divisibilePer3;
 
-console.log(`n è pari: ${pari}`);
-console.log(`n è pari: ${divisibilePer3}`);
-console.log(`n è pari: ${pariDivisibile}`);
+console.log(`${n} è pari: ${pari}`);
+console.log(`${n} è pari: ${divisibilePer3}`);
+console.log(`${n} è pari e divisibile per 3: ${pariDivisibile}`);
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo
    Tre const "a", "b", "c" (lunghezze dei lati).
