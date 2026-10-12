@@ -55,7 +55,8 @@ console.log(`5 anni fa avevi ${currentAge - 5}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let eta = 25;
+let eta;
+eta = 25;
 let maggiorenne = eta >= 18;
 console.log(`Età: ${eta} - Maggiorenne: ${maggiorenne}`);
 
@@ -74,11 +75,11 @@ let booleanVar = true;
 let nullVar = null;
 let undefinedVar;
 
-console.log(`stringVar è di tipo ${typeof stringVar}`);
-console.log(`numberVar è di tipo ${typeof numberVar}`);
-console.log(`booleanVar è di tipo ${typeof booleanVar}`);
-console.log(`nullVar è di tipo ${typeof nullVar}`);
-console.log(`undefinedVar è di tipo ${typeof undefinedVar}`);
+console.log(`La variabile ${stringVar} è di tipo ${typeof stringVar}`);
+console.log(`La variabile ${numberVar} è di tipo ${typeof numberVar}`);
+console.log(`La variabile ${booleanVar} è di tipo ${typeof booleanVar}`);
+console.log(`La variabile ${nullVar} è di tipo ${typeof nullVar}`);
+console.log(`La variabile ${undefinedVar} è di tipo ${typeof undefinedVar}`);
 
 
 /* ESERCIZIO 6 — === vs ==
@@ -126,7 +127,8 @@ nel secondo caso, === significa "strettamente uguale a", e non fa conversione di
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let n = 5;
+let n;
+n = 5;
 let pari = n % 2 === 0;
 let divisibilePer3 = n % 3 === 0;
 let pariDivisibile = pari && divisibilePer3;
