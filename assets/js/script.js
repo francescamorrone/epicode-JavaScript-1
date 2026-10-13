@@ -150,12 +150,18 @@ const A = 4;
 const B = 4;
 const C = 7;
 let perimetro = A + B + C;
+let tipo;
 
-let equilatero = A === B && B == C && C === A;
-let scaleno = A !== B && B !== C && C !== A;
-let isoscele = A === B || B === C || C === A;
-
-console.log(`Triangolo, perimetro ${perimetro}`);
+if (A === B && B === C) {
+   tipo ="equilatero";
+   console.log(`Triangolo ${tipo}, perimetro ${perimetro}`);
+} else if (A === B || B === C || C === A) {
+   tipo = "isoscele";
+   console.log(`Triangolo ${tipo}, perimetro ${perimetro}`);
+} else {
+   tipo = 'scaleno';
+   console.log(`Triangolo ${tipo}, perimetro ${perimetro}`);
+}
 
 
 
